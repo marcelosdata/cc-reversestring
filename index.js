@@ -4,3 +4,9 @@ function solution(str){
 }
 
 console.log(solution('marcelo'))
+
+//de forma arrow function
+
+const reversion = str => str.split("").reverse().join("")
+
+console.log(reversion('pelota'))
